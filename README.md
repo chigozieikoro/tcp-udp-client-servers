@@ -77,3 +77,22 @@ passed in.
 
 
 As for programming languages, the entire project was written in Python3 with the socket.py library.
+
+
+server_tcp:
+server_tcp(): method that runs a TCP server
+
+client_tcp:
+client_tcp((): method that runs TCP client
+
+server_udp:
+server_udp() method runs a UDP server
+
+client_udp:
+client_udp() method runs UDP server
+
+server_udp_loss:
+server_udp(probability): method runs a udp server with loss rate specified by probability
+
+client_udp_loss:
+client_udp() runs a udp client with loss
